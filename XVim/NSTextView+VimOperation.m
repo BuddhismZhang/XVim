@@ -2154,7 +2154,7 @@
 }
 
 - (void)xvim_registerPositionForUndo:(NSUInteger)pos{
-    [[self undoManager] registerUndoWithTarget:self selector:@selector(xvim_undoCursorPos:) object:[NSNumber numberWithUnsignedInteger:pos]];
+    // [[self undoManager] registerUndoWithTarget:self selector:@selector(xvim_undoCursorPos:) object:[NSNumber numberWithUnsignedInteger:pos]];
 }
 
 - (void)xvim_registerInsertionPointForUndo{
